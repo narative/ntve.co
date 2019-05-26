@@ -35,7 +35,7 @@ async function createRedirects(event, context) {
     const longUrl = `${BASE_URL}/articles/${slug}`;
 
     return `/${shortUrl} ${longUrl}\n` + curr;
-  }, `/* ${BASE_URL}\n`);
+  }, `/ ${BASE_URL}\n`);
 
   console.log(redirects);
   fs.writeFileSync(redirectPath, redirects);
