@@ -1,8 +1,8 @@
 {
-  "name": "nrtv.to",
+  "name": "ntve.co",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:narative/nrtv.to.git",
+  "repository": "git@github.com:narative/ntve.co.git",
   "author": "Dennis Brotzky <dennis@narative.co>",
   "license": "MIT",
   "scripts": {
