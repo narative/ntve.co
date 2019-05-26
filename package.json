@@ -1,0 +1,23 @@
+{
+  "name": "nrtv.to",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:narative/nrtv.to.git",
+  "author": "Dennis Brotzky <dennis@narative.co>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "watch": "npm run build -- --watch"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.4.5",
+    "contentful": "^7.6.0",
+    "dotenv": "^8.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.4.4",
+    "@babel/preset-env": "^7.4.5"
+  }
+}
