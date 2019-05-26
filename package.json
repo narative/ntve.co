@@ -6,7 +6,7 @@
   "author": "Dennis Brotzky <dennis@narative.co>",
   "license": "MIT",
   "scripts": {
-    "build": "babel src --out-dir .",
+    "build": "babel src --out-dir . && node index.js",
     "watch": "npm run build -- --watch"
   },
   "dependencies": {
