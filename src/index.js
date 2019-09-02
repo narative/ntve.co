@@ -9,7 +9,6 @@ const BASE_URL = 'https://narative.co';
 
 const root = path.dirname('./');
 const redirectPath = path.join(root, '_redirects');
-const contents = fs.readFileSync(redirectPath, 'utf8');
 
 // Create a clinet to talk with Contentful
 const client = contentful.createClient({
