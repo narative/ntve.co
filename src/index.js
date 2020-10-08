@@ -34,7 +34,7 @@ async function createRedirects(event, context) {
     const longUrl = `${BASE_URL}/articles/${slug}`;
 
     return `/${shortUrl} ${longUrl}\n` + curr;
-  }, `/irap https://irap.narative.co\n /* ${BASE_URL}\n`);
+  }, `/irap https://irap.narative.co\n /4141 https://remaxducartier.com/en/our-properties/montreal-le-plateau-mont-royal/4141-av-papineau/27490548\n /* ${BASE_URL}\n`);
 
   console.log(redirects);
   fs.writeFileSync(redirectPath, redirects);
